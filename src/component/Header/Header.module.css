@@ -1,0 +1,35 @@
+.contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
+.botonForm{
+    height: 100px;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.botonForm:hover{
+    cursor: pointer;
+    border: 3px solid white ;
+    color: white;
+    background-color: black;
+}
+
+.botonTable{
+    height: 100px;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.botonTable:hover{
+    cursor: pointer;
+    border: 3px solid white ;
+    color: white;
+    background-color: black;
+}

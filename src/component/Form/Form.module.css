@@ -1,0 +1,33 @@
+.botonRegresar{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.botonRegresar:hover{
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
+
+.botonEnviar{
+    border-radius: 10px;
+}
+
+.botonEnviar:hover{
+    cursor: pointer;
+}
+
+
+
+.form{
+    margin-left: 42%;
+    margin-top: 10%;
+}
+
+.respuesta{
+    margin-top: 55px;
+    margin-left: 42%;
+}

@@ -1,0 +1,31 @@
+.contenedorTabla{
+    border: solid 1px black;
+    margin-left: 33%;
+    margin-top: 13%;
+}
+ 
+th{
+    background-color: rgb(231, 223, 223);
+    border: 1px solid black;
+    margin-left: 15px;
+}
+
+td{
+    background-color: #fff;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+
+.boton{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.boton:hover{
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
