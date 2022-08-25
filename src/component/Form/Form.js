@@ -28,6 +28,15 @@ export default function Form() {
     setResultadoInput(true) 
     setBotonActivo(false) 
   }
+  function handlleDelete(){
+    setResultadoInput(false)
+    setBotonActivo(false)
+    setInput({
+      nombre: "",
+      edad: "",
+      email: "",
+    })
+  }
   return (
     <div>
       <Link to='/'>
@@ -71,7 +80,12 @@ export default function Form() {
             onChange={(e)=> {handleChange(e)}}
           />
         </div>
-          <button  type="submit" disabled={!botonActivo} className={style.botonEnviar}>Enviar</button> 
+        <div>
+          <button  type="submit" disabled={!botonActivo} className={style.botonEnviar}>Enviar</button>
+        </div>
+        <div>
+          <button type='button' className={style.botonReiniciar} onClick={()=> handlleDelete()} >Reiniciar formulario</button> 
+        </div>
         </form>
       </div>
       {resultadoInput === true? (
