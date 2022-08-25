@@ -19,6 +19,15 @@
 .botonEnviar:hover{
     cursor: pointer;
 }
+.botonReiniciar{
+    border-radius: 10px;
+}
+
+.botonReiniciar:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(248, 45, 45);
+}
 
 
 
